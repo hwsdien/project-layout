@@ -30,3 +30,10 @@
 ### 说明
 
     仅供参考，并不是每个目录都是必须，自行决定
+
+### v1 使用的库
+* CLI 命令(spf13/cobra): https://github.com/spf13/cobra
+* 配置读取(spf13/viper): https://github.com/spf13/viper
+* SQL(jmoiron/sqlx): https://github.com/jmoiron/sqlx
+* Log(uber-go/zap): https://github.com/uber-go/zap
+* Lumberjack(natefinch/lumberjack.v2): https://github.com/natefinch/lumberjack

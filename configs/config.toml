@@ -1,0 +1,15 @@
+app_name = "project-layout"
+version = "v1.0.0"
+
+[log]
+filename = "./test.log"
+max_size = 10
+max_backups = 5
+max_age = 30
+compress = false
+
+[mysql]
+dsn = "root:123123@tcp(127.0.0.1:3306)/web?charset=utf8mb4&parseTime=True"
+max_open_conns = 20 # 连接池最大连接数
+max_idle_conns = 10 # 连接池最大空闲连接数
+max_life_time = 10 # 连接的最长生命周期

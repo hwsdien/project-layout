@@ -21,3 +21,6 @@
 go.work
 
 .idea
+*.log
+project-layout
+go.sum
